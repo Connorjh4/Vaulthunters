@@ -1,0 +1,30 @@
+[23:14:48] [Server thread/ERROR] [minecraft/MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-server.toml of type SERVER for modid forge
+        at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:61) ~[forge:?] {re:classloading}
+        at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:104) ~[forge:?] {re:classloading}
+        at net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:83) ~[forge:?] {re:classloading}
+        at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_302] {}
+        at java.util.Collections$SynchronizedCollection.forEach(Collections.java:2064) ~[?:1.8.0_302] {}
+        at net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:83) ~[forge:?] {re:classloading}
+        at net.minecraftforge.fml.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:94) ~[forge:?] {re:classloading}
+        at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:166) ~[?:?] {re:classloading,pl:accesstransformer:B}
+        at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:621) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+        at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_302] {}
+Caused by: com.electronwill.nightconfig.core.io.ParsingException: Invalid value ture - Expected the boolean value true.
+        at com.electronwill.nightconfig.toml.ValueParser.parseTrue(ValueParser.java:175) ~[toml-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.toml.ValueParser.parse(ValueParser.java:46) ~[toml-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.toml.ValueParser.parse(ValueParser.java:68) ~[toml-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:57) ~[toml-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101) ~[toml-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88) ~[toml-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37) ~[toml-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113) ~[core-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219) ~[core-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202) ~[core-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73) ~[core-3.6.3.jar:?] {}
+        at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85) ~[core-3.6.3.jar:?] {}
+        at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:57) ~[forge:?] {re:classloading}
+        ... 10 more
+[23:14:48] [Server thread/FATAL] [ne.mi.co.ForgeMod/]: Preparing crash report with UUID 999262a8-6904-49db-b33b-3c4fceed4540
+[23:14:48] [Server thread/ERROR] [minecraft/MinecraftServer]: This crash report has been saved to: /home/connorjhauenstein/vault-server/./crash-reports/crash-2022-11-06_23.14.48-server.txt

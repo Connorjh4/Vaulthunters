@@ -1,0 +1,1224 @@
+[06Nov2022 20:49:00.606] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.23, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[06Nov2022 20:49:00.610] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_302 by Oracle Corporation
+[06Nov2022 20:49:00.942] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[06Nov2022 20:49:01.008] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/home/connorjhauenstein/vault-server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[06Nov2022 20:49:03.082] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[06Nov2022 20:49:05.258] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[06Nov2022 20:49:05.263] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[06Nov2022 20:49:05.265] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[06Nov2022 20:49:05.268] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[06Nov2022 20:49:05.270] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [eutros.framedcompactdrawers.MixinConnector]
+[06Nov2022 20:49:05.273] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[06Nov2022 20:49:05.276] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [iskallia.vault.MixinConnector]
+[06Nov2022 20:49:05.295] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[06Nov2022 20:49:05.889] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[06Nov2022 20:49:06.427] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[06Nov2022 20:49:06.991] [main/INFO] [net.minecraftforge.coremod.CoreMod.the_vault/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
+[06Nov2022 20:49:07.004] [main/INFO] [net.minecraftforge.coremod.CoreMod.the_vault/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
+[06Nov2022 20:49:10.280] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[06Nov2022 20:49:11.281] [main/INFO] [FerriteCore - class definer/]: Using Java 8 class definer
+[06Nov2022 20:49:14.743] [main/WARN] [mixin/]: Mixin ispawner-common.mixins.json:MixinItemPlacementContext has multiple constructors, (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)V was selected
+
+[06Nov2022 20:49:14.820] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[06Nov2022 20:49:18.033] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[06Nov2022 20:49:19.090] [main/INFO] [PluginManager/]: Scanning classes for titanium
+[06Nov2022 20:49:19.109] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class IndustrialForegoingResourcePlugin for plugin resources
+[06Nov2022 20:49:19.110] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class DefaultResourceRegistryPlugin for plugin resources
+[06Nov2022 20:49:19.296] [modloading-worker-0/INFO] [wile.rsgauges.ModRsGauges/]: Gauges and Switches GIT id #900a6ee.
+[06Nov2022 20:49:19.381] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[06Nov2022 20:49:19.619] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[06Nov2022 20:49:20.178] [modloading-worker-3/INFO] [PluginManager/]: Scanning classes for industrialforegoing
+[06Nov2022 20:49:20.180] [modloading-worker-3/INFO] [PluginManager/]: Found FeaturePluginInstance for class ImmersiveEngineeringPlugin for plugin immersiveengineering
+[06Nov2022 20:49:20.181] [modloading-worker-3/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[06Nov2022 20:49:20.186] [modloading-worker-3/INFO] [PluginManager/]: Constructed class ImmersiveEngineeringPlugin for plugin immersiveengineering for mod industrialforegoing
+[06Nov2022 20:49:20.187] [modloading-worker-3/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[06Nov2022 20:49:20.188] [modloading-worker-3/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:20.199] [modloading-worker-3/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[06Nov2022 20:49:20.205] [modloading-worker-3/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:20.205] [modloading-worker-3/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[06Nov2022 20:49:20.463] [modloading-worker-1/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 1 RS API injection point
+[06Nov2022 20:49:20.464] [modloading-worker-1/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[06Nov2022 20:49:20.674] [modloading-worker-2/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[06Nov2022 20:49:20.827] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[06Nov2022 20:49:20.846] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[06Nov2022 20:49:20.998] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Registering all blocks and items from BlockCarpentry
+[06Nov2022 20:49:21.155] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering blocks from BlockCarpentry
+[06Nov2022 20:49:21.156] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering items from BlockCarpentry
+[06Nov2022 20:49:21.156] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering tiles from BlockCarpentry
+[06Nov2022 20:49:21.156] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering containers from BlockCarpentry
+[06Nov2022 20:49:21.157] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering points of interest from Blockcarpentry
+[06Nov2022 20:49:21.157] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Registered all blocks and items from BlockCarpentry
+[06Nov2022 20:49:21.611] [modloading-worker-3/INFO] [PluginManager/]: Executing phase INIT for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:21.612] [modloading-worker-3/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
+[06Nov2022 20:49:21.620] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[06Nov2022 20:49:21.621] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[06Nov2022 20:49:21.869] [modloading-worker-3/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:21.870] [modloading-worker-3/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
+[06Nov2022 20:49:23.881] [modloading-worker-2/INFO] [net.minecraftforge.coremod.CoreMod.the_vault/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
+[06Nov2022 20:49:23.883] [modloading-worker-2/INFO] [net.minecraftforge.coremod.CoreMod.the_vault/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
+[06Nov2022 20:49:24.111] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.23, for MC 1.16.5 with MCP 20210115.111550
+[06Nov2022 20:49:24.111] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.23 Initialized
+[06Nov2022 20:49:24.736] [modloading-worker-3/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[06Nov2022 20:49:24.737] [modloading-worker-3/INFO] [PluginManager/]: Scanning classes for titanium
+[06Nov2022 20:49:24.811] [modloading-worker-3/INFO] [PluginManager/]: Constructed class IndustrialForegoingResourcePlugin for plugin resources for mod titanium
+[06Nov2022 20:49:24.812] [modloading-worker-3/INFO] [PluginManager/]: Constructed class DefaultResourceRegistryPlugin for plugin resources for mod titanium
+[06Nov2022 20:49:24.812] [modloading-worker-3/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class IndustrialForegoingResourcePlugin
+[06Nov2022 20:49:24.833] [modloading-worker-3/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class DefaultResourceRegistryPlugin
+[06Nov2022 20:49:25.127] [modloading-worker-2/INFO] [JarSignVerifier/]: Mod usefulrailroads is signed with a valid certificate.
+[06Nov2022 20:49:26.087] [modloading-worker-2/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[06Nov2022 20:49:28.110] [modloading-worker-3/INFO] [wile.engineersdecor.ModEngineersDecor/]: Engineer's Decor GIT id #c213a42.
+[06Nov2022 20:49:28.497] [modloading-worker-3/WARN] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Attempting to add a Lambda listener with computed generic type of Event. Are you sure this is what you meant? NOTE : there are complex lambda forms where the generic type information is erased and cannot be recovered at runtime.
+[06Nov2022 20:49:30.661] [main/INFO] [wile.rsgauges.ModRsGauges/]: Registered 94 blocks.
+[06Nov2022 20:49:33.544] [main/INFO] [com.polyvalord.neoncraft.NeonCraft/]: HELLO from Register Block
+[06Nov2022 20:49:33.562] [main/INFO] [Dark Utilities/]: Registered 45 Block entries in 1.46ms.
+[06Nov2022 20:49:34.337] [main/INFO] [iskallia.iskallutilities.core.IskallUtilities/]: HELLO from Register Block
+[06Nov2022 20:49:35.507] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Immersive Engineering also installed ...
+[06Nov2022 20:49:35.508] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 118 blocks.
+[06Nov2022 20:49:35.988] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
+[06Nov2022 20:49:36.358] [main/INFO] [wile.rsgauges.ModRsGauges/]: Registered 1 items.
+[06Nov2022 20:49:36.450] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+[06Nov2022 20:49:36.745] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 154 ms
+[06Nov2022 20:49:36.760] [main/INFO] [Dark Utilities/]: Registered 52 Item entries in 1.03ms.
+[06Nov2022 20:49:37.296] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
+[06Nov2022 20:49:38.730] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.35ms.
+[06Nov2022 20:49:40.182] [main/INFO] [wile.rsgauges.ModRsGauges/]: Registered 10 tile entities.
+[06Nov2022 20:49:40.375] [main/INFO] [Dark Utilities/]: Registered 2 TileEntityType entries in 0.1ms.
+[06Nov2022 20:49:40.491] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 18 tile entities.
+[06Nov2022 20:49:40.505] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[06Nov2022 20:49:40.593] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 1 entities bound to blocks.
+[06Nov2022 20:49:40.595] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
+[06Nov2022 20:49:40.624] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.624] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_1, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.624] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_2, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.625] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_3, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.625] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_4, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.625] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_5, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.625] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_6, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.625] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_7, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.625] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_8, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.626] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_fighter_9, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.626] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:fighter, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.627] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:arena_boss, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.630] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:vault_guardian, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.635] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:eternal, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.635] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:treasure_goblin, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.640] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:aggressive_cow, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.641] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:etching_vendor, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.644] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:monster_eye, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.646] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:robot, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.647] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:blue_blaze, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.650] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:boogieman, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.652] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:aggressive_cow_boss, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.659] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:eyesore, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.660] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for the_vault:eyestalk, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:40.670] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[06Nov2022 20:49:40.671] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[06Nov2022 20:49:40.856] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 8 containers bound to tile entities.
+[06Nov2022 20:49:40.859] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[06Nov2022 20:49:40.954] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[06Nov2022 20:49:40.954] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.08ms.
+[06Nov2022 20:49:41.228] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Sounds registered!
+[06Nov2022 20:49:42.257] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
+[06Nov2022 20:49:42.262] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
+[06Nov2022 20:49:42.286] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
+[06Nov2022 20:49:42.307] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
+[06Nov2022 20:49:42.336] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
+[06Nov2022 20:49:42.378] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
+[06Nov2022 20:49:42.420] [Thread-1/INFO] [wile.rsgauges.ModRsGauges/]: Config file changed rsgauges-common.toml
+[06Nov2022 20:49:42.422] [Thread-1/INFO] [wile.rsgauges.ModRsGauges/]: Config file changed rsgauges-common.toml
+[06Nov2022 20:49:42.562] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.563] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.566] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.566] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.566] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.566] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.567] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.567] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.569] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.570] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.572] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.572] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.572] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.572] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.573] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.574] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.575] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.576] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.576] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.576] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.577] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.578] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.578] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.578] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.580] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.580] [Thread-1/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[06Nov2022 20:49:42.654] [main/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[06Nov2022 20:49:42.654] [main/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[06Nov2022 20:49:42.655] [Thread-1/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[06Nov2022 20:49:42.655] [Thread-1/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[06Nov2022 20:49:42.658] [Thread-1/INFO] [FluxNetworks/]: BLACKLIST RELOADED
+[06Nov2022 20:49:42.658] [Thread-1/INFO] [FluxNetworks/]: COMMON CONFIG LOADED
+[06Nov2022 20:49:42.666] [Thread-1/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-common.toml
+[06Nov2022 20:49:42.667] [Thread-1/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-common.toml
+[06Nov2022 20:49:42.674] [main/INFO] [me.desht.modularrouters.ModularRouters/]: Common config re-baked
+[06Nov2022 20:49:42.675] [Thread-1/INFO] [me.desht.modularrouters.ModularRouters/]: Common config re-baked
+[06Nov2022 20:49:42.675] [Thread-1/INFO] [me.desht.modularrouters.ModularRouters/]: Common config re-baked
+[06Nov2022 20:49:42.688] [main/INFO] [quark/]: Loading Module Chain Linkage
+[06Nov2022 20:49:42.691] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[06Nov2022 20:49:42.691] [main/INFO] [quark/]: Loading Module Chute
+[06Nov2022 20:49:42.691] [main/INFO] [quark/]: Loading Module Color Slime
+[06Nov2022 20:49:42.691] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[06Nov2022 20:49:42.691] [main/INFO] [quark/]: Loading Module Ender Watcher
+[06Nov2022 20:49:42.691] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[06Nov2022 20:49:42.694] [main/INFO] [quark/]: Loading Module Feeding Trough
+[06Nov2022 20:49:42.696] [main/INFO] [quark/]: Loading Module Gravisand
+[06Nov2022 20:49:42.696] [main/INFO] [quark/]: Loading Module Iron Rod
+[06Nov2022 20:49:42.696] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[06Nov2022 20:49:42.699] [main/INFO] [quark/]: Loading Module Metal Buttons
+[06Nov2022 20:49:42.699] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[06Nov2022 20:49:42.699] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[06Nov2022 20:49:42.701] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[06Nov2022 20:49:42.701] [main/INFO] [quark/]: Loading Module Weather Sensor
+[06Nov2022 20:49:42.701] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[06Nov2022 20:49:42.701] [main/INFO] [quark/]: Loading Module Burn Vines
+[06Nov2022 20:49:42.702] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[06Nov2022 20:49:42.702] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[06Nov2022 20:49:42.702] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[06Nov2022 20:49:42.702] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[06Nov2022 20:49:42.702] [main/INFO] [quark/]: Loading Module Framed Glass
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module Gold Bars
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module Grate
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module Hedges
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module Iron Plates
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module Item Frames
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module Lit Lamp
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module Midori
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module More Brick Types
+[06Nov2022 20:49:42.703] [main/INFO] [quark/]: Loading Module More Potted Plants
+[06Nov2022 20:49:42.704] [main/INFO] [quark/]: Loading Module More Stone Variants
+[06Nov2022 20:49:42.704] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[06Nov2022 20:49:42.704] [main/INFO] [quark/]: Loading Module Paper Decor
+[06Nov2022 20:49:42.704] [main/INFO] [quark/]: Loading Module Quilted Wool
+[06Nov2022 20:49:42.704] [main/INFO] [quark/]: Loading Module Rope
+[06Nov2022 20:49:42.704] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[06Nov2022 20:49:42.705] [main/INFO] [quark/]: Loading Module Shingles
+[06Nov2022 20:49:42.705] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[06Nov2022 20:49:42.705] [main/INFO] [quark/]: Loading Module Stained Planks
+[06Nov2022 20:49:42.705] [main/INFO] [quark/]: Loading Module Stools
+[06Nov2022 20:49:42.706] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[06Nov2022 20:49:42.706] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[06Nov2022 20:49:42.707] [main/INFO] [quark/]: Loading Module Thatch
+[06Nov2022 20:49:42.707] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[06Nov2022 20:49:42.707] [main/INFO] [quark/]: Loading Module Turf
+[06Nov2022 20:49:42.707] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[06Nov2022 20:49:42.707] [main/INFO] [quark/]: Loading Module Variant Chests
+[06Nov2022 20:49:42.710] [main/INFO] [quark/]: Loading Module Variant Ladders
+[06Nov2022 20:49:42.710] [main/INFO] [quark/]: Loading Module Vertical Planks
+[06Nov2022 20:49:42.710] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[06Nov2022 20:49:42.710] [main/INFO] [quark/]: Loading Module Wooden Posts
+[06Nov2022 20:49:42.710] [main/INFO] [quark/]: Loading Module Chests In Boats
+[06Nov2022 20:49:42.711] [main/INFO] [quark/]: Loading Module Easy Transfering
+[06Nov2022 20:49:42.711] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[06Nov2022 20:49:42.711] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[06Nov2022 20:49:42.711] [main/INFO] [quark/]: Loading Module Item Sharing
+[06Nov2022 20:49:42.711] [main/INFO] [quark/]: Loading Module Right Click Armor
+[06Nov2022 20:49:42.711] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[06Nov2022 20:49:42.712] [main/INFO] [quark/]: Loading Module Endermosh Music Disc
+[06Nov2022 20:49:42.712] [main/INFO] [quark/]: Loading Module Abacus
+[06Nov2022 20:49:42.712] [main/INFO] [quark/]: Loading Module Ambient Discs
+[06Nov2022 20:49:42.713] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[06Nov2022 20:49:42.714] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[06Nov2022 20:49:42.714] [main/INFO] [quark/]: Loading Module Camera
+[06Nov2022 20:49:42.714] [main/INFO] [quark/]: Loading Module Color Runes
+[06Nov2022 20:49:42.715] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[06Nov2022 20:49:42.715] [main/INFO] [quark/]: Loading Module Pickarang
+[06Nov2022 20:49:42.716] [main/INFO] [quark/]: Loading Module Seed Pouch
+[06Nov2022 20:49:42.716] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[06Nov2022 20:49:42.717] [main/INFO] [quark/]: Loading Module Trowel
+[06Nov2022 20:49:42.717] [main/INFO] [quark/]: Loading Module Skull Pikes
+[06Nov2022 20:49:42.718] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[06Nov2022 20:49:42.720] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[06Nov2022 20:49:42.720] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[06Nov2022 20:49:42.721] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[06Nov2022 20:49:42.722] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[06Nov2022 20:49:42.722] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[06Nov2022 20:49:42.723] [main/INFO] [quark/]: Loading Module Dirt To Path
+[06Nov2022 20:49:42.723] [main/INFO] [quark/]: Loading Module Double Door Opening
+[06Nov2022 20:49:42.723] [main/INFO] [quark/]: Loading Module Dragon Scales
+[06Nov2022 20:49:42.724] [main/INFO] [quark/]: Loading Module Emotes
+[06Nov2022 20:49:42.724] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[06Nov2022 20:49:42.724] [main/INFO] [quark/]: Loading Module Glass Shard
+[06Nov2022 20:49:42.725] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[06Nov2022 20:49:42.725] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[06Nov2022 20:49:42.726] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[06Nov2022 20:49:42.726] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[06Nov2022 20:49:42.727] [main/INFO] [quark/]: Loading Module Lock Rotation
+[06Nov2022 20:49:42.729] [main/INFO] [quark/]: Loading Module More Banner Layers
+[06Nov2022 20:49:42.729] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[06Nov2022 20:49:42.729] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[06Nov2022 20:49:42.730] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[06Nov2022 20:49:42.731] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[06Nov2022 20:49:42.731] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[06Nov2022 20:49:42.732] [main/INFO] [quark/]: Loading Module Sign Editing
+[06Nov2022 20:49:42.734] [main/INFO] [quark/]: Loading Module Simple Harvest
+[06Nov2022 20:49:42.735] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[06Nov2022 20:49:42.735] [main/INFO] [quark/]: Loading Module Springy Slime
+[06Nov2022 20:49:42.735] [main/INFO] [quark/]: Loading Module Utility Recipes
+[06Nov2022 20:49:42.736] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[06Nov2022 20:49:42.737] [main/INFO] [quark/]: Loading Module Big Dungeon
+[06Nov2022 20:49:42.738] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[06Nov2022 20:49:42.738] [main/INFO] [quark/]: Loading Module Biotite
+[06Nov2022 20:49:42.739] [main/INFO] [quark/]: Loading Module Blossom Trees
+[06Nov2022 20:49:42.739] [main/INFO] [quark/]: Loading Module Cave Roots
+[06Nov2022 20:49:42.739] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[06Nov2022 20:49:42.739] [main/INFO] [quark/]: Loading Module Crevices
+[06Nov2022 20:49:42.740] [main/INFO] [quark/]: Loading Module Deepslate
+[06Nov2022 20:49:42.740] [main/INFO] [quark/]: Loading Module Fairy Rings
+[06Nov2022 20:49:42.740] [main/INFO] [quark/]: Loading Module Mega Caves
+[06Nov2022 20:49:42.740] [main/INFO] [quark/]: Loading Module Monster Box
+[06Nov2022 20:49:42.741] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[06Nov2022 20:49:42.741] [main/INFO] [quark/]: Loading Module New Stone Types
+[06Nov2022 20:49:42.741] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[06Nov2022 20:49:42.742] [main/INFO] [quark/]: Loading Module Speleothems
+[06Nov2022 20:49:42.742] [main/INFO] [quark/]: Loading Module Spiral Spires
+[06Nov2022 20:49:42.742] [main/INFO] [quark/]: Loading Module Underground Clay
+[06Nov2022 20:49:42.743] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[06Nov2022 20:49:42.743] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[06Nov2022 20:49:42.743] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[06Nov2022 20:49:42.744] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[06Nov2022 20:49:42.744] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[06Nov2022 20:49:42.744] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[06Nov2022 20:49:42.745] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[06Nov2022 20:49:42.745] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[06Nov2022 20:49:42.745] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[06Nov2022 20:49:42.745] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[06Nov2022 20:49:42.748] [main/INFO] [quark/]: Loading Module Crabs
+[06Nov2022 20:49:42.749] [main/INFO] [quark/]: Loading Module Forgotten
+[06Nov2022 20:49:42.751] [main/INFO] [quark/]: Loading Module Foxhound
+[06Nov2022 20:49:42.752] [main/INFO] [quark/]: Loading Module Frogs
+[06Nov2022 20:49:42.752] [main/INFO] [quark/]: Loading Module Stonelings
+[06Nov2022 20:49:42.753] [main/INFO] [quark/]: Loading Module Toretoise
+[06Nov2022 20:49:42.753] [main/INFO] [quark/]: Loading Module Wraith
+[06Nov2022 20:49:42.753] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[06Nov2022 20:49:42.753] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[06Nov2022 20:49:42.753] [main/INFO] [quark/]: Loading Module Chest Searching
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Greener Grass
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Usage Ticker
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Backpack
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Crate
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Magnets
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Pipes
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Game Nerfs
+[06Nov2022 20:49:42.754] [main/INFO] [quark/]: Loading Module Microcrafting Helper
+[06Nov2022 20:49:42.755] [main/INFO] [quark/]: Loading Module Narrator Readout
+[06Nov2022 20:49:42.755] [main/INFO] [quark/]: Loading Module Overlay Shader
+[06Nov2022 20:49:42.755] [main/INFO] [quark/]: Loading Module Pallet
+[06Nov2022 20:49:42.755] [main/INFO] [quark/]: Loading Module Shiba
+[06Nov2022 20:49:42.807] [modloading-worker-0/INFO] [wile.rsgauges.ModRsGauges/]: Registering recipe condition processor ...
+[06Nov2022 20:49:42.821] [modloading-worker-1/INFO] [Bookshelf/]: Registering 3 command argument types.
+[06Nov2022 20:49:42.822] [modloading-worker-1/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[06Nov2022 20:49:42.897] [modloading-worker-1/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[06Nov2022 20:49:42.941] [modloading-worker-0/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class ImmersiveEngineeringPlugin
+[06Nov2022 20:49:42.941] [modloading-worker-0/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[06Nov2022 20:49:43.075] [modloading-worker-3/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Setting up BlockCarpentry mod
+[06Nov2022 20:49:43.078] [modloading-worker-2/INFO] [com.polyvalord.neoncraft.NeonCraft/]: HELLO FROM PREINIT
+[06Nov2022 20:49:43.078] [modloading-worker-2/INFO] [com.polyvalord.neoncraft.NeonCraft/]: DIRT BLOCK >> minecraft:dirt
+[06Nov2022 20:49:43.155] [modloading-worker-2/WARN] [morpheus/]: New day handler for dimension ResourceKey[minecraft:dimension / minecraft:overworld] has been replaced
+[06Nov2022 20:49:43.192] [modloading-worker-1/INFO] [mcjtylib/]: RFTools Storage Detected XNet: enabling support
+[06Nov2022 20:49:43.236] [modloading-worker-3/INFO] [AE2:C/]: Post Initialization ( started )
+[06Nov2022 20:49:43.255] [modloading-worker-3/INFO] [AE2:C/]: Post Initialization ( ended after 23ms )
+[06Nov2022 20:49:43.307] [modloading-worker-3/INFO] [iskallia.iskallutilities.core.IskallUtilities/]: HELLO FROM PREINIT
+[06Nov2022 20:49:43.308] [modloading-worker-3/INFO] [iskallia.iskallutilities.core.IskallUtilities/]: DIRT BLOCK >> minecraft:dirt
+[06Nov2022 20:49:43.378] [modloading-worker-1/INFO] [Mekanism/]: Version 10.1.1 initializing...
+[06Nov2022 20:49:43.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[06Nov2022 20:49:43.569] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[06Nov2022 20:49:43.573] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: OUTDATED Current: 2.0.2 Target: 2.0.3
+[06Nov2022 20:49:43.573] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rsgauges] Starting version check at https://raw.githubusercontent.com/stfwi/rsgauges/1.16/meta/update.json
+[06Nov2022 20:49:43.587] [modloading-worker-1/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[06Nov2022 20:49:43.587] [modloading-worker-1/INFO] [Mekanism/]: Loading complete.
+[06Nov2022 20:49:43.588] [modloading-worker-1/INFO] [Mekanism/]: Mod loaded.
+[06Nov2022 20:49:43.593] [modloading-worker-2/INFO] [CraftTweaker/]: CraftTweaker has loaded successfully!
+[06Nov2022 20:49:43.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rsgauges] Found status: OUTDATED Current: 1.2.13 Target: 1.2.16
+[06Nov2022 20:49:43.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.16.5
+[06Nov2022 20:49:43.698] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[06Nov2022 20:49:43.699] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[06Nov2022 20:49:43.699] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[06Nov2022 20:49:43.699] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[06Nov2022 20:49:43.700] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[06Nov2022 20:49:43.700] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[06Nov2022 20:49:43.700] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[06Nov2022 20:49:43.700] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[06Nov2022 20:49:43.700] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[06Nov2022 20:49:43.700] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[06Nov2022 20:49:43.701] [modloading-worker-1/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[06Nov2022 20:49:43.709] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.723] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.748] [modloading-worker-1/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registering recipe condition processor ...
+[06Nov2022 20:49:43.752] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.756] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.762] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.760] [modloading-worker-3/INFO] [me.desht.modularrouters.ModularRouters/]: Modular Routers is loading!
+[06Nov2022 20:49:43.768] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.775] [modloading-worker-1/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[06Nov2022 20:49:43.791] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.802] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.802] [modloading-worker-3/INFO] [iskallia.vault.Vault/]: setupCommon()
+[06Nov2022 20:49:43.807] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for endermail:ender_mailman, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:43.828] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[06Nov2022 20:49:44.391] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 7.0.0.28 Target: 7.0.0.28
+[06Nov2022 20:49:44.391] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rangedpumps] Starting version check at https://refinedmods.com/ranged-pumps/update.json
+[06Nov2022 20:49:44.612] [modloading-worker-3/INFO] [iskallia.vault.Vault/]: Vault Configs are loaded successfully!
+[06Nov2022 20:49:44.641] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.FileNotFoundException: https://refinedmods.com/ranged-pumps/update.json
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_302]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_302]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_302]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268) ~[?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:171) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
+Caused by: java.io.FileNotFoundException: https://refinedmods.com/ranged-pumps/update.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1896) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_302]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_302]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352) ~[?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:155) ~[forge:?]
+	... 3 more
+[06Nov2022 20:49:44.642] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.16.5
+[06Nov2022 20:49:44.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 10.3.29 Target: 10.4.32
+[06Nov2022 20:49:44.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[06Nov2022 20:49:44.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 3.2.1.196 Target: 3.2.1.229
+[06Nov2022 20:49:44.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[06Nov2022 20:49:45.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: OUTDATED Current: 1.0.5 Target: 1.0.7
+[06Nov2022 20:49:45.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refinedstorage] Starting version check at https://refinedmods.com/refined-storage/update.json
+[06Nov2022 20:49:45.254] [modloading-worker-3/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[06Nov2022 20:49:45.259] [modloading-worker-2/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[06Nov2022 20:49:45.262] [modloading-worker-0/INFO] [iskallia.vault.Vault/]: setupDedicatedServer()
+[06Nov2022 20:49:45.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refinedstorage] Found status: OUTDATED Current: 1.9.15 Target: 1.9.16
+[06Nov2022 20:49:45.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[06Nov2022 20:49:45.342] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[06Nov2022 20:49:45.344] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[06Nov2022 20:49:45.407] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Processing InterModCommunication
+[06Nov2022 20:49:45.408] [modloading-worker-0/INFO] [com.polyvalord.neoncraft.NeonCraft/]: Got IMC []
+[06Nov2022 20:49:45.414] [modloading-worker-0/INFO] [iskallia.iskallutilities.core.IskallUtilities/]: Got IMC []
+[06Nov2022 20:49:45.423] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Processed InterModCommunication
+[06Nov2022 20:49:45.428] [modloading-worker-1/INFO] [powah/Config]: Added coolant fluid: minecraft:water, with coldness of: 1 per mb
+[06Nov2022 20:49:45.429] [modloading-worker-1/INFO] [powah/Config]: Added block: minecraft:lava, with heat of: 1000
+[06Nov2022 20:49:45.429] [modloading-worker-1/INFO] [powah/Config]: Added block: minecraft:magma_block, with heat of: 800
+[06Nov2022 20:49:45.429] [modloading-worker-1/INFO] [powah/Config]: Added block: powah:blazing_crystal_block, with heat of: 2800
+[06Nov2022 20:49:45.429] [modloading-worker-1/INFO] [powah/Config]: Added fluid: minecraft:lava, with heat of: 10000 per 100 mb
+[06Nov2022 20:49:45.445] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[06Nov2022 20:49:45.446] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[06Nov2022 20:49:45.452] [modloading-worker-3/INFO] [Waila/]: Registered plugin at net.blay09.mods.cookingforblockheads.compat.WailaAddon
+[06Nov2022 20:49:45.462] [modloading-worker-3/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[06Nov2022 20:49:45.465] [modloading-worker-3/INFO] [Waila/]: Registered plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[06Nov2022 20:49:45.469] [modloading-worker-3/INFO] [Waila/]: Registered plugin at de.maxhenkel.camera.integration.waila.PluginCamera
+[06Nov2022 20:49:45.472] [modloading-worker-3/INFO] [Waila/]: Registered plugin at net.blay09.mods.waystones.compat.WailaProvider
+[06Nov2022 20:49:45.479] [modloading-worker-3/INFO] [Waila/]: Registered plugin at edivad.dimstorage.compat.waila.WailaCompatibility
+[06Nov2022 20:49:45.492] [modloading-worker-3/INFO] [Waila/]: Registered plugin at mekanism.common.integration.lookingat.hwyla.MekanismHwylaPlugin
+[06Nov2022 20:49:45.501] [modloading-worker-3/INFO] [Waila/]: Registered plugin at blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
+[06Nov2022 20:49:45.504] [modloading-worker-3/INFO] [Waila/]: Registered plugin at de.maxhenkel.storage.integration.waila.PluginStorageOverhaul
+[06Nov2022 20:49:45.508] [modloading-worker-3/INFO] [Waila/]: Registered plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[06Nov2022 20:49:45.511] [modloading-worker-3/INFO] [Waila/]: Registered plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[06Nov2022 20:49:45.515] [modloading-worker-3/INFO] [Waila/]: Registered plugin at me.desht.modularrouters.integration.waila.WailaIntegration
+[06Nov2022 20:49:45.526] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Compostible Blocks Added!
+[06Nov2022 20:49:45.528] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Hoeable Blocks!
+[06Nov2022 20:49:45.532] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Flammables!
+[06Nov2022 20:49:45.536] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added strippable Blocks...
+[06Nov2022 20:49:47.001] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.16.5-1.0.6 Target: null
+[06Nov2022 20:49:47.002] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[06Nov2022 20:49:47.137] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: OUTDATED Current: 2.0.1 Target: 2.0.5
+[06Nov2022 20:49:47.138] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://maxhenkel.de/update/camera.json
+[06Nov2022 20:49:47.961] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: UP_TO_DATE Current: 1.16.5-1.0.14 Target: null
+[06Nov2022 20:49:47.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [runelic] Starting version check at https://updates.blamejared.com/get?n=runelic&gv=1.16.5
+[06Nov2022 20:49:48.127] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [runelic] Found status: BETA_OUTDATED Current: 7.0.2 Target: 7.0.3
+[06Nov2022 20:49:48.128] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkutils] Starting version check at https://updates.blamejared.com/get?n=darkutils&gv=1.16.3
+[06Nov2022 20:49:48.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkutils] Found status: BETA Current: 6.0.3 Target: null
+[06Nov2022 20:49:48.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs
+[06Nov2022 20:49:48.382] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.FileNotFoundException: https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_302]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_302]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_302]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268) ~[?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:171) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
+Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1896) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_302]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_302]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352) ~[?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:155) ~[forge:?]
+	... 3 more
+[06Nov2022 20:49:48.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cfm/update.json
+[06Nov2022 20:49:48.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre19 Target: null
+[06Nov2022 20:49:48.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[06Nov2022 20:49:48.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: OUTDATED Current: 2.0.1 Target: 3.0.2
+[06Nov2022 20:49:48.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.16.5
+[06Nov2022 20:49:48.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 6.0.0.27 Target: 6.0.0.28
+[06Nov2022 20:49:48.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dimstorage] Starting version check at https://raw.githubusercontent.com/Edivad99/mod-version-controll/master/dimstorage_update.json
+[06Nov2022 20:49:48.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dimstorage] Found status: UP_TO_DATE Current: 4.4.1 Target: null
+[06Nov2022 20:49:48.911] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeitweaker] Starting version check at https://updates.blamejared.com/get?n=JEITweaker&gv=1.16.5
+[06Nov2022 20:49:49.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeitweaker] Found status: BETA Current: 1.1.0.49 Target: 1.1.0.49
+[06Nov2022 20:49:49.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mininggadgets] Starting version check at https://raw.githubusercontent.com/Direwolf20-MC/MiningGadgets/master/update.json
+[06Nov2022 20:49:49.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mininggadgets] Found status: UP_TO_DATE Current: 1.7.5 Target: null
+[06Nov2022 20:49:49.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.16.5
+[06Nov2022 20:49:49.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA_OUTDATED Current: 7.1.2.487 Target: 7.1.2.515
+[06Nov2022 20:49:49.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Nov2022 20:49:49.680] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.23 Target: 36.2.34
+[06Nov2022 20:49:49.680] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[06Nov2022 20:49:49.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: OUTDATED Current: 1.4.0.6 Target: 1.5.2
+[06Nov2022 20:49:49.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[06Nov2022 20:49:50.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: OUTDATED Current: 1.4.1.7 Target: 1.5.2
+[06Nov2022 20:49:50.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[06Nov2022 20:49:51.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mousetweaks] Found status: BETA Current: 2.14 Target: null
+[06Nov2022 20:49:51.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.16.5/changelog.json
+[06Nov2022 20:49:51.843] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: OUTDATED Current: 1.16.5-5.0.7-143 Target: 1.16.5-5.1.0-148
+[06Nov2022 20:49:51.843] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Starting version check at https://api.u-team.info/update/usefulrailroads.json
+[06Nov2022 20:49:51.905] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Found status: OUTDATED Current: 1.4.6.38 Target: 1.4.6.43
+[06Nov2022 20:49:51.906] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [archers_paradox] Starting version check at https://raw.github.com/cofh/version/master/archers_paradox/update.json
+[06Nov2022 20:49:52.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [archers_paradox] Found status: OUTDATED Current: 1.4.0.1 Target: 1.5.0
+[06Nov2022 20:49:52.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storage_overhaul] Starting version check at https://maxhenkel.de/update/storage_overhaul.json
+[06Nov2022 20:49:53.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storage_overhaul] Found status: UP_TO_DATE Current: 1.16.5-1.0.4 Target: null
+[06Nov2022 20:49:53.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createtweaker] Starting version check at https://updates.blamejared.com/get?n=createtweaker&gv=1.16.5
+[06Nov2022 20:49:53.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createtweaker] Found status: BETA Current: 1.0.0.26 Target: 1.0.0.26
+[06Nov2022 20:49:53.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[06Nov2022 20:49:53.315] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 7.0.1.15 Target: null
+[06Nov2022 20:49:53.315] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://maxhenkel.de/update/easy_villagers.json
+[06Nov2022 20:49:54.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.16.5-1.0.11 Target: 1.16.5-1.0.13
+[06Nov2022 20:49:54.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [engineersdecor] Starting version check at https://raw.githubusercontent.com/stfwi/engineers-decor/1.16/meta/update.json
+[06Nov2022 20:49:54.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [engineersdecor] Found status: OUTDATED Current: 1.1.15 Target: 1.1.18
+[06Nov2022 20:49:54.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [modularrouters] Starting version check at https://raw.githubusercontent.com/desht/ModularRouters/MC1.16.3-master/release_info.json
+[06Nov2022 20:49:54.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [modularrouters] Found status: BETA Current: task ':jar' property 'archiveVersion' Target: null
+[06Nov2022 20:49:54.352] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refinedstorageaddons] Starting version check at https://refinedmods.com/refined-storage-addons/update.json
+[06Nov2022 20:49:54.418] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.FileNotFoundException: https://refinedmods.com/refined-storage-addons/update.json
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_302]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_302]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_302]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268) ~[?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:171) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
+Caused by: java.io.FileNotFoundException: https://refinedmods.com/refined-storage-addons/update.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1896) ~[?:1.8.0_302]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_302]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_302]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352) ~[?:1.8.0_302]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:155) ~[forge:?]
+	... 3 more
+[06Nov2022 20:49:54.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Starting version check at https://updates.blamejared.com/get?n=openloader&gv=1.16.5
+[06Nov2022 20:49:54.585] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Found status: BETA Current: 9.0.3 Target: 9.0.3
+[06Nov2022 20:49:59.264] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Nov2022 20:49:59.416] [main/INFO] [Open Loader/]: Injecting data pack finder.
+[06Nov2022 20:50:00.029] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, cart1] and [c, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Nov2022 20:50:00.032] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, carts] and [c, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Nov2022 20:50:00.033] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[06Nov2022 20:50:00.033] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[06Nov2022 20:50:00.034] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[06Nov2022 20:50:00.035] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[06Nov2022 20:50:00.037] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, cart1] and [c, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Nov2022 20:50:00.038] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, carts] and [c, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Nov2022 20:50:00.040] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [deathhistory, player] and [deathhistory, player_uuid] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Nov2022 20:50:00.056] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Nov2022 20:50:00.058] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Nov2022 20:50:00.060] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Nov2022 20:50:00.061] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Nov2022 20:50:00.063] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Nov2022 20:50:00.104] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, rsrequestify-1.16.5-2.1.4.jar, mcw-windows-2.0.2-mc1.16.5.jar, torohealth-1.16.4-forge-4.jar, rsgauges-1.16.5-1.2.13.jar, IronJetpacks-1.16.5-4.2.3.jar, XaerosWorldMap_1.16.0_Forge_1.16.5.jar, CookingForBlockheads_1.16.5-9.3.4.jar, Controlling-7.0.0.28.jar, Placebo-1.16.5-4.6.1.jar, dankstorage-3.19.jar, Powah-1.16.5-2.3.16.jar, rangedpumps-0.8.2.jar, Bookshelf-Forge-1.16.5-10.3.29.jar, u_team_core-1.16.5-3.2.1.196.jar, buildinggadgets-1.16.5-3.8.2.jar, mcw-doors-1.0.5-mc1.16.5.jar, Morpheus-1.16.5-4.2.70.jar, MekanismGenerators-1.16.5-10.1.1.456.jar, Hwyla-forge-1.10.11-B78_1.16.2.jar, JustEnoughResources-1.16.5-0.12.1.133.jar, shetiphiancore-1.16-3.8.6.jar, MmmMmmMmmMmm-1.16.5-1.3.1.jar, supplementaries-1.16.5-0.18.0.jar, refinedstorage-1.9.15.jar, PrettyPipes-1.9.5.jar, corpse-1.16.5-1.0.6.jar, mcw-bridges-2.0.1-mc1.16.5.jar, industrial-foregoing-1.16.5-3.2.14.6-14.jar, torchmaster-2.3.8.jar, Compressium-1.16.5-1.2.3.jar, valkyrielib-1.16.5-3.0.9.5.jar, Lollipop-1.16.5-3.2.9.jar, ironfurnaces-1.16.5-2.7.7.jar, supermartijn642corelib-1.0.16-mc1.16.5.jar, masonry-1.16.3-0.3.6.jar, simplylight-1.16.5-1.4.0-build.24.jar, Botania-1.16.5-420.1.jar, fairylights-4.0.5-1.16.5.jar, simplybackpacks-1.16.5-2.0.1-build.27.jar, curios-forge-1.16.5-4.0.5.2.jar, Patchouli-1.16.4-53.2.jar, camera-1.16.5-1.0.14.jar, blockcarpentry-1.16-0.4.0.jar, elevatorid-1.16.5-1.7.13.jar, neoncraft-2.1.jar, Runelic-1.16.5-7.0.2.jar, DarkUtilities-1.16.3-6.0.3.jar, mcw-roofs-2.0.1-mc1.16.5-4.jar, furniture-7.0.0-pre19-1.16.3.jar, architectury-1.28.48.jar, mcw-furniture-2.0.1-mc1.16.5.jar, trashcans-1.0.11-mc1.16.jar, Cucumber-1.16.5-4.1.12.jar, ftb-library-forge-1605.3.4-build.90.jar, snad-1.0.9-forge.jar, platforms-1.16-1.7.12.jar, jei-1.16.5-7.7.1.139.jar, metalbarrels-1.16.2-3.3b.jar, invtweaks-1.16.4-1.0.1.jar, Waystones_1.16.5-7.6.4.jar, Clumps-6.0.0.27.jar, enviromats-1.16.5-2.0.9.0.jar, comforts-forge-1.16.5-4.0.1.3.jar, appliedenergistics2-8.4.6.jar, framedcompactdrawers-1.16-2.2.1.jar, DimStorage-1.16.5-4.4.1.jar, decorative_blocks-1.16.4-1.7.2.jar, mcjtylib-1.16-5.1.2.jar, rftoolsbase-1.16-2.1.1.jar, xnet-1.16-3.0.15.jar, rftoolsstorage-1.16-2.0.15.jar, ispawner-0.1.7-forge.jar, JEITweaker-1.16.5-1.1.0.49.jar, mininggadgets-1.7.5.jar, entitydetectors-1.16.4-1.1.0.1.jar, CraftTweaker-1.16.5-7.1.2.487.jar, Mekanism-1.16.5-10.1.1.456.jar, rftoolspower-1.16-3.0.11.jar, forge-1.16.5-36.2.23-universal.jar, Waddles-1.16.5-0.8.13.jar, iskallutilities-1.4.jar, selene-1.16.5-1.9.0.jar, ironchest-1.16.5-11.2.21.jar, cofh_core-1.16.5-1.4.0.6.jar, thermal_foundation-1.16.5-1.4.1.7.jar, thermal_expansion-1.16.5-1.4.1.3.jar, rftoolsutility-1.16-3.1.7.jar, MouseTweaks-2.14-mc1.16.2.jar, titanium-1.16.5-3.2.8.4-10.jar, ImmersiveEngineering-1.16.5-5.0.7-143.jar, useful_railroads-1.16.5-1.4.6.38.jar, movingelevators-1.2.34-mc1.16.5.jar, archers_paradox-1.16.5-1.4.0.1.jar, storage_overhaul-1.16.5-1.0.4.jar, CreateTweaker-1.0.0.26.jar, rftoolsbuilder-1.16-3.1.4.jar, jeiintegration_1.16.5-7.0.1.15.jar, easy_villagers-1.16.5-1.0.11.jar, flywheel-1.16-0.2.5.jar, create-mc1.16.5_v0.3.2g.jar, Xaeros_Minimap_21.14.1_Forge_1.16.5.jar, ftb-backups-2.1.2.2.jar, FastWorkbench-1.16.5-4.6.1.jar, AutoRegLib-1.6-49.jar, Quark-r2.4-321.jar, StorageDrawers-1.16.3-8.5.0.jar, FluxNetworks-1.16.5-6.1.7.12.jar, engineersdecor-1.16.5-1.1.15.jar, modular-routers-1.16.5-7.4.0-55.jar, byg-1.3.5.jar, refinedstorageaddons-0.7.3.jar, OpenLoader-1.16.5-9.0.3.jar, EnderMail-1.16.5-1.2.2.jar, the_vault-1.8.3p1.13.9.jar, lazydfu-0.1.3.jar, starlight-1.2.jar, ferritecore-2.1.0-forge.jar
+[06Nov2022 20:50:02.751] [Worker-Main-2/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load block tag farmersdelight:mushroom_colony_growable_on as it is missing following references: supplementaries:planter_rich (from supplementaries-1.16.5-0.18.0.jar)
+[06Nov2022 20:50:02.763] [Worker-Main-2/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:hardened_stone as it is missing following references: #enviromats:hardened_stone (from enviromats-1.16.5-2.0.9.0.jar)
+[06Nov2022 20:50:02.764] [Worker-Main-2/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:pumice as it is missing following references: #enviromats:pumice (from enviromats-1.16.5-2.0.9.0.jar)
+[06Nov2022 20:50:02.764] [Worker-Main-2/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:travertine as it is missing following references: #enviromats:travertine (from enviromats-1.16.5-2.0.9.0.jar)
+[06Nov2022 20:50:02.764] [Worker-Main-2/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:granodiorite as it is missing following references: #enviromats:granodiorite (from enviromats-1.16.5-2.0.9.0.jar)
+[06Nov2022 20:50:02.764] [Worker-Main-2/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:marble as it is missing following references: #enviromats:marble (from enviromats-1.16.5-2.0.9.0.jar)
+[06Nov2022 20:50:02.764] [Worker-Main-2/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:basalt as it is missing following references: #enviromats:basalt (from enviromats-1.16.5-2.0.9.0.jar)
+[06Nov2022 20:50:02.829] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_apple_lotr as it's serializer returned null
+[06Nov2022 20:50:02.833] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_sort_tf as it's serializer returned null
+[06Nov2022 20:50:02.870] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_end_lotus as it's serializer returned null
+[06Nov2022 20:50:02.885] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_trans_tf as it's serializer returned null
+[06Nov2022 20:50:02.887] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_silverbell_pw as it's serializer returned null
+[06Nov2022 20:50:02.891] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_edelwood as it's serializer returned null
+[06Nov2022 20:50:02.893] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_smogstem as it's serializer returned null
+[06Nov2022 20:50:02.897] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/tetrahedrite as it's serializer returned null
+[06Nov2022 20:50:02.906] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_rotten_lotr as it's serializer returned null
+[06Nov2022 20:50:02.907] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_river as it's serializer returned null
+[06Nov2022 20:50:02.916] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_dragon_tree as it's serializer returned null
+[06Nov2022 20:50:02.925] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_arcane_edelwood as it's serializer returned null
+[06Nov2022 20:50:02.926] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_morado as it's serializer returned null
+[06Nov2022 20:50:02.926] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_glowshroom as it's serializer returned null
+[06Nov2022 20:50:02.931] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_dark_tf as it's serializer returned null
+[06Nov2022 20:50:02.936] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_azure as it's serializer returned null
+[06Nov2022 20:50:02.938] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/peridot as it's serializer returned null
+[06Nov2022 20:50:02.942] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_charred as it's serializer returned null
+[06Nov2022 20:50:02.944] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_brown_mushroom as it's serializer returned null
+[06Nov2022 20:50:02.944] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_lucernia as it's serializer returned null
+[06Nov2022 20:50:02.945] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_holly_lotr as it's serializer returned null
+[06Nov2022 20:50:02.946] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_rotten_lotr as it's serializer returned null
+[06Nov2022 20:50:02.947] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_purple_heart_pw as it's serializer returned null
+[06Nov2022 20:50:02.949] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_apple_te as it's serializer returned null
+[06Nov2022 20:50:02.950] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_charred_de as it's serializer returned null
+[06Nov2022 20:50:02.962] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_temporal as it's serializer returned null
+[06Nov2022 20:50:02.964] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_grongle as it's serializer returned null
+[06Nov2022 20:50:02.968] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert
+com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199568_a(ShapelessRecipe.java:95) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199425_a_(ShapelessRecipe.java:80) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199425_a_(ShapelessRecipe.java:76) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:966) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:940) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_302]
+[06Nov2022 20:50:02.975] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:planter_rich_soul as it's serializer returned null
+[06Nov2022 20:50:02.984] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_helix_tree as it's serializer returned null
+[06Nov2022 20:50:02.988] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_umbran_bop as it's serializer returned null
+[06Nov2022 20:50:02.988] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_canopy_tf as it's serializer returned null
+[06Nov2022 20:50:02.992] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cherry_lotr as it's serializer returned null
+[06Nov2022 20:50:03.003] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cherry_env as it's serializer returned null
+[06Nov2022 20:50:03.003] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_pecha as it's serializer returned null
+[06Nov2022 20:50:03.005] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_jacaranda_bop as it's serializer returned null
+[06Nov2022 20:50:03.009] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cherry_lotr as it's serializer returned null
+[06Nov2022 20:50:03.010] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cherry_red as it's serializer returned null
+[06Nov2022 20:50:03.013] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_distortic as it's serializer returned null
+[06Nov2022 20:50:03.019] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_sitrus as it's serializer returned null
+[06Nov2022 20:50:03.024] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_driftwood as it's serializer returned null
+[06Nov2022 20:50:03.024] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_green_oak_lotr as it's serializer returned null
+[06Nov2022 20:50:03.030] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_twisted as it's serializer returned null
+[06Nov2022 20:50:03.039] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mushroom_em as it's serializer returned null
+[06Nov2022 20:50:03.042] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_palo_verde as it's serializer returned null
+[06Nov2022 20:50:03.043] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_dead_bop as it's serializer returned null
+[06Nov2022 20:50:03.044] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_darkwood as it's serializer returned null
+[06Nov2022 20:50:03.045] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_end_lotus as it's serializer returned null
+[06Nov2022 20:50:03.053] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:planter_rich as it's serializer returned null
+[06Nov2022 20:50:03.054] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_palm_bop as it's serializer returned null
+[06Nov2022 20:50:03.060] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_umbrella_tree as it's serializer returned null
+[06Nov2022 20:50:03.069] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cherry_bop as it's serializer returned null
+[06Nov2022 20:50:03.070] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mossy_glowshroom as it's serializer returned null
+[06Nov2022 20:50:03.070] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_redbud_ab as it's serializer returned null
+[06Nov2022 20:50:03.071] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_olive as it's serializer returned null
+[06Nov2022 20:50:03.076] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_elder as it's serializer returned null
+[06Nov2022 20:50:03.077] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cypress_bb as it's serializer returned null
+[06Nov2022 20:50:03.079] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_arcane_edelwood as it's serializer returned null
+[06Nov2022 20:50:03.080] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_maple_lotr as it's serializer returned null
+[06Nov2022 20:50:03.081] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_dragon_tree as it's serializer returned null
+[06Nov2022 20:50:03.087] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_pear_lotr as it's serializer returned null
+[06Nov2022 20:50:03.092] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mahogany_bop as it's serializer returned null
+[06Nov2022 20:50:03.092] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_hellbark_bop as it's serializer returned null
+[06Nov2022 20:50:03.095] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_red_mushroom as it's serializer returned null
+[06Nov2022 20:50:03.098] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_pine_lotr as it's serializer returned null
+[06Nov2022 20:50:03.099] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/yellorium as it's serializer returned null
+[06Nov2022 20:50:03.099] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/yellorite as it's serializer returned null
+[06Nov2022 20:50:03.101] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_leppa as it's serializer returned null
+[06Nov2022 20:50:03.101] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mine_tf as it's serializer returned null
+[06Nov2022 20:50:03.102] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_dead as it's serializer returned null
+[06Nov2022 20:50:03.103] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mysterywood as it's serializer returned null
+[06Nov2022 20:50:03.104] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cypress_lotr as it's serializer returned null
+[06Nov2022 20:50:03.105] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_aspen_atm as it's serializer returned null
+[06Nov2022 20:50:03.106] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_fairy_ring_mushroom_hbt as it's serializer returned null
+[06Nov2022 20:50:03.115] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/platinum as it's serializer returned null
+[06Nov2022 20:50:03.116] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mallorn_lotr as it's serializer returned null
+[06Nov2022 20:50:03.117] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cherrywood as it's serializer returned null
+[06Nov2022 20:50:03.121] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_dead as it's serializer returned null
+[06Nov2022 20:50:03.122] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cave_mushroom as it's serializer returned null
+[06Nov2022 20:50:03.130] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mirk_oak_lotr as it's serializer returned null
+[06Nov2022 20:50:03.132] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_lacugrove as it's serializer returned null
+[06Nov2022 20:50:03.135] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_dream as it's serializer returned null
+[06Nov2022 20:50:03.136] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_deadwood_atum as it's serializer returned null
+[06Nov2022 20:50:03.138] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_dead_bop as it's serializer returned null
+[06Nov2022 20:50:03.140] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_kousa as it's serializer returned null
+[06Nov2022 20:50:03.141] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_lebethron_lotr as it's serializer returned null
+[06Nov2022 20:50:03.141] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_charred_de as it's serializer returned null
+[06Nov2022 20:50:03.145] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_maple_aut as it's serializer returned null
+[06Nov2022 20:50:03.145] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_sitrus as it's serializer returned null
+[06Nov2022 20:50:03.145] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_runewood as it's serializer returned null
+[06Nov2022 20:50:03.146] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_poisonous_mushroom_em as it's serializer returned null
+[06Nov2022 20:50:03.146] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_distortic as it's serializer returned null
+[06Nov2022 20:50:03.148] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_smogstem as it's serializer returned null
+[06Nov2022 20:50:03.156] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_temporal as it's serializer returned null
+[06Nov2022 20:50:03.158] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_palo_verde as it's serializer returned null
+[06Nov2022 20:50:03.162] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ardite as it's serializer returned null
+[06Nov2022 20:50:03.167] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_kousa as it's serializer returned null
+[06Nov2022 20:50:03.168] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_red_mushroom as it's serializer returned null
+[06Nov2022 20:50:03.170] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_hellbark_bop as it's serializer returned null
+[06Nov2022 20:50:03.170] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_tiger_pw as it's serializer returned null
+[06Nov2022 20:50:03.172] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/bauxite as it's serializer returned null
+[06Nov2022 20:50:03.173] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mahogany_bop as it's serializer returned null
+[06Nov2022 20:50:03.173] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_archwood as it's serializer returned null
+[06Nov2022 20:50:03.173] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mysterywood as it's serializer returned null
+[06Nov2022 20:50:03.178] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[06Nov2022 20:50:03.181] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_fir_lotr as it's serializer returned null
+[06Nov2022 20:50:03.182] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/draconium as it's serializer returned null
+[06Nov2022 20:50:03.183] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/cobalt as it's serializer returned null
+[06Nov2022 20:50:03.183] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_time_tf as it's serializer returned null
+[06Nov2022 20:50:03.183] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_willow_env as it's serializer returned null
+[06Nov2022 20:50:03.184] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_twilight_oak_tf as it's serializer returned null
+[06Nov2022 20:50:03.184] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_beech_lotr as it's serializer returned null
+[06Nov2022 20:50:03.186] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_leppa as it's serializer returned null
+[06Nov2022 20:50:03.189] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:firefly_jar_tf as it's serializer returned null
+[06Nov2022 20:50:03.190] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe the_vault:vault_crystal_omniscient
+com.google.gson.JsonSyntaxException: Unknown item 'the_vault:shard_omniscient'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_302]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:966) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:940) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_302]
+[06Nov2022 20:50:03.195] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_dream as it's serializer returned null
+[06Nov2022 20:50:03.214] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_polished as it's serializer returned null
+[06Nov2022 20:50:03.219] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/arcane as it's serializer returned null
+[06Nov2022 20:50:03.223] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_magic_pw as it's serializer returned null
+[06Nov2022 20:50:03.223] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_rosewood as it's serializer returned null
+[06Nov2022 20:50:03.225] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cedar_lotr as it's serializer returned null
+[06Nov2022 20:50:03.225] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_pythadendron as it's serializer returned null
+[06Nov2022 20:50:03.227] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_aspen_lotr as it's serializer returned null
+[06Nov2022 20:50:03.230] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_driftwood as it's serializer returned null
+[06Nov2022 20:50:03.232] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe the_vault:vault_crystal_benevolent
+com.google.gson.JsonSyntaxException: Unknown item 'the_vault:shard_benevolent'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_302]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:966) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:940) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_302]
+[06Nov2022 20:50:03.234] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_tea as it's serializer returned null
+[06Nov2022 20:50:03.235] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_hazel_te as it's serializer returned null
+[06Nov2022 20:50:03.241] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cactus as it's serializer returned null
+[06Nov2022 20:50:03.241] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_larch_lotr as it's serializer returned null
+[06Nov2022 20:50:03.242] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_willow_bop as it's serializer returned null
+[06Nov2022 20:50:03.246] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_fluid/oil as it's serializer returned null
+[06Nov2022 20:50:03.247] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_lacugrove as it's serializer returned null
+[06Nov2022 20:50:03.248] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_elder as it's serializer returned null
+[06Nov2022 20:50:03.253] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_palm_bop as it's serializer returned null
+[06Nov2022 20:50:03.254] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cherry_env as it's serializer returned null
+[06Nov2022 20:50:03.255] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_bamboo as it's serializer returned null
+[06Nov2022 20:50:03.259] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_polished as it's serializer returned null
+[06Nov2022 20:50:03.260] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[06Nov2022 20:50:03.261] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_maple_aut as it's serializer returned null
+[06Nov2022 20:50:03.264] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_maple_lotr as it's serializer returned null
+[06Nov2022 20:50:03.266] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mirk_oak_lotr as it's serializer returned null
+[06Nov2022 20:50:03.267] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe the_vault:vault_crystal_malevolence
+com.google.gson.JsonSyntaxException: Unknown item 'the_vault:shard_malevolence'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_302]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:966) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:940) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_302]
+[06Nov2022 20:50:03.271] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_inverted as it's serializer returned null
+[06Nov2022 20:50:03.277] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_olive as it's serializer returned null
+[06Nov2022 20:50:03.279] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/bitumen as it's serializer returned null
+[06Nov2022 20:50:03.280] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cherry_red as it's serializer returned null
+[06Nov2022 20:50:03.281] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cypress_bb as it's serializer returned null
+[06Nov2022 20:50:03.283] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_jacaranda_ab as it's serializer returned null
+[06Nov2022 20:50:03.311] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[06Nov2022 20:50:03.311] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_holly_lotr as it's serializer returned null
+[06Nov2022 20:50:03.311] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_palm_atum as it's serializer returned null
+[06Nov2022 20:50:03.313] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_pecha as it's serializer returned null
+[06Nov2022 20:50:03.317] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_charred as it's serializer returned null
+[06Nov2022 20:50:03.319] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_pine_lotr as it's serializer returned null
+[06Nov2022 20:50:03.319] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/galena as it's serializer returned null
+[06Nov2022 20:50:03.320] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/tungsten as it's serializer returned null
+[06Nov2022 20:50:03.321] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_twilight_oak_tf as it's serializer returned null
+[06Nov2022 20:50:03.322] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:copper_lantern_2 as it's serializer returned null
+[06Nov2022 20:50:03.322] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_enigma as it's serializer returned null
+[06Nov2022 20:50:03.327] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_cactus as it's serializer returned null
+[06Nov2022 20:50:03.331] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_lucernia as it's serializer returned null
+[06Nov2022 20:50:03.331] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/iridium as it's serializer returned null
+[06Nov2022 20:50:03.331] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_painted_acacia as it's serializer returned null
+[06Nov2022 20:50:03.332] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_sort_tf as it's serializer returned null
+[06Nov2022 20:50:03.334] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_glowshroom_em as it's serializer returned null
+[06Nov2022 20:50:03.336] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_darkwood as it's serializer returned null
+[06Nov2022 20:50:03.338] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_glowshroom as it's serializer returned null
+[06Nov2022 20:50:03.342] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_wigglewood as it's serializer returned null
+[06Nov2022 20:50:03.344] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cave_mushroom as it's serializer returned null
+[06Nov2022 20:50:03.348] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_wisteria_env as it's serializer returned null
+[06Nov2022 20:50:03.350] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_runewood as it's serializer returned null
+[06Nov2022 20:50:03.352] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe engineersdecor:dependent/halfslab_concrete_recipe as it's serializer returned null
+[06Nov2022 20:50:03.354] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_palm_atum as it's serializer returned null
+[06Nov2022 20:50:03.358] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_redwood_bop as it's serializer returned null
+[06Nov2022 20:50:03.364] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_apple_lotr as it's serializer returned null
+[06Nov2022 20:50:03.365] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cherry_bop as it's serializer returned null
+[06Nov2022 20:50:03.365] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_tenanea as it's serializer returned null
+[06Nov2022 20:50:03.366] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_umbran_bop as it's serializer returned null
+[06Nov2022 20:50:03.367] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_grimwood as it's serializer returned null
+[06Nov2022 20:50:03.370] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_dark_tf as it's serializer returned null
+[06Nov2022 20:50:03.371] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_magic_bop as it's serializer returned null
+[06Nov2022 20:50:03.371] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_pear_lotr as it's serializer returned null
+[06Nov2022 20:50:03.374] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_willow_pw as it's serializer returned null
+[06Nov2022 20:50:03.374] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_azure as it's serializer returned null
+[06Nov2022 20:50:03.374] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_trans_tf as it's serializer returned null
+[06Nov2022 20:50:03.379] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/pyrite as it's serializer returned null
+[06Nov2022 20:50:03.379] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mangrove_tf as it's serializer returned null
+[06Nov2022 20:50:03.380] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mangrove_un as it's serializer returned null
+[06Nov2022 20:50:03.381] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_pythadendron as it's serializer returned null
+[06Nov2022 20:50:03.382] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_grongle as it's serializer returned null
+[06Nov2022 20:50:03.387] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_lairelosse_lotr as it's serializer returned null
+[06Nov2022 20:50:03.388] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe the_vault:unidentified_relic
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'the_vault:crafting_special_unidentified_relic'
+	at net.minecraft.item.crafting.RecipeManager.func_241449_a_(RecipeManager.java:140) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_302]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:139) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:966) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:940) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_302]
+[06Nov2022 20:50:03.390] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_maple_pw as it's serializer returned null
+[06Nov2022 20:50:03.390] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_grimwood as it's serializer returned null
+[06Nov2022 20:50:03.391] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_glowshroom_em as it's serializer returned null
+[06Nov2022 20:50:03.395] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_deadwood_atum as it's serializer returned null
+[06Nov2022 20:50:03.395] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/sheldonite as it's serializer returned null
+[06Nov2022 20:50:03.396] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_river as it's serializer returned null
+[06Nov2022 20:50:03.400] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_charred_lotr as it's serializer returned null
+[06Nov2022 20:50:03.400] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_poisonous_mushroom_em as it's serializer returned null
+[06Nov2022 20:50:03.402] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_wigglewood as it's serializer returned null
+[06Nov2022 20:50:03.402] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_rosewood as it's serializer returned null
+[06Nov2022 20:50:03.404] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_brown_mushroom as it's serializer returned null
+[06Nov2022 20:50:03.408] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mushroom_em as it's serializer returned null
+[06Nov2022 20:50:03.408] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_nanab as it's serializer returned null
+[06Nov2022 20:50:03.411] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_wisteria_env as it's serializer returned null
+[06Nov2022 20:50:03.412] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_bamboo as it's serializer returned null
+[06Nov2022 20:50:03.412] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_beech_lotr as it's serializer returned null
+[06Nov2022 20:50:03.413] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_lairelosse_lotr as it's serializer returned null
+[06Nov2022 20:50:03.413] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_maple_pw as it's serializer returned null
+[06Nov2022 20:50:03.413] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_blood as it's serializer returned null
+[06Nov2022 20:50:03.414] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_jacaranda_bop as it's serializer returned null
+[06Nov2022 20:50:03.418] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_fir_lotr as it's serializer returned null
+[06Nov2022 20:50:03.418] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_fir_bop as it's serializer returned null
+[06Nov2022 20:50:03.422] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_apple_te as it's serializer returned null
+[06Nov2022 20:50:03.423] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_willow_bop as it's serializer returned null
+[06Nov2022 20:50:03.424] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_morado as it's serializer returned null
+[06Nov2022 20:50:03.424] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_yucca as it's serializer returned null
+[06Nov2022 20:50:03.425] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_jellyshroom as it's serializer returned null
+[06Nov2022 20:50:03.428] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_white as it's serializer returned null
+[06Nov2022 20:50:03.428] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_poise as it's serializer returned null
+[06Nov2022 20:50:03.432] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_time_tf as it's serializer returned null
+[06Nov2022 20:50:03.437] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_willow_env as it's serializer returned null
+[06Nov2022 20:50:03.437] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_inverted as it's serializer returned null
+[06Nov2022 20:50:03.442] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_edelwood as it's serializer returned null
+[06Nov2022 20:50:03.444] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mossy_glowshroom as it's serializer returned null
+[06Nov2022 20:50:03.445] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_jacaranda_ab as it's serializer returned null
+[06Nov2022 20:50:03.447] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_umbrella_tree as it's serializer returned null
+[06Nov2022 20:50:03.449] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_fir_bop as it's serializer returned null
+[06Nov2022 20:50:03.449] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/sodalite as it's serializer returned null
+[06Nov2022 20:50:03.454] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_oran as it's serializer returned null
+[06Nov2022 20:50:03.455] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cherrywood as it's serializer returned null
+[06Nov2022 20:50:03.456] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_oran as it's serializer returned null
+[06Nov2022 20:50:03.457] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cypress_lotr as it's serializer returned null
+[06Nov2022 20:50:03.457] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_white as it's serializer returned null
+[06Nov2022 20:50:03.460] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_yucca as it's serializer returned null
+[06Nov2022 20:50:03.461] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_fairy_ring_mushroom_hbt as it's serializer returned null
+[06Nov2022 20:50:03.462] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_cedar_lotr as it's serializer returned null
+[06Nov2022 20:50:03.468] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_aspen_lotr as it's serializer returned null
+[06Nov2022 20:50:03.470] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_mine_tf as it's serializer returned null
+[06Nov2022 20:50:03.470] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_poise as it's serializer returned null
+[06Nov2022 20:50:03.472] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_tea as it's serializer returned null
+[06Nov2022 20:50:03.474] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_lebethron_lotr as it's serializer returned null
+[06Nov2022 20:50:03.474] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_larch_lotr as it's serializer returned null
+[06Nov2022 20:50:03.475] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_redbud_ab as it's serializer returned null
+[06Nov2022 20:50:03.478] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mangrove_un as it's serializer returned null
+[06Nov2022 20:50:03.479] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mangrove_tf as it's serializer returned null
+[06Nov2022 20:50:03.485] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_hazel_te as it's serializer returned null
+[06Nov2022 20:50:03.485] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_aged as it's serializer returned null
+[06Nov2022 20:50:03.486] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_charred_lotr as it's serializer returned null
+[06Nov2022 20:50:03.488] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_canopy_tf as it's serializer returned null
+[06Nov2022 20:50:03.489] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_archwood as it's serializer returned null
+[06Nov2022 20:50:03.489] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_helix_tree as it's serializer returned null
+[06Nov2022 20:50:03.490] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_mallorn_lotr as it's serializer returned null
+[06Nov2022 20:50:03.491] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_nanab as it's serializer returned null
+[06Nov2022 20:50:03.492] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_tiger_pw as it's serializer returned null
+[06Nov2022 20:50:03.495] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_jellyshroom as it's serializer returned null
+[06Nov2022 20:50:03.495] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_enigma as it's serializer returned null
+[06Nov2022 20:50:03.496] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_aged as it's serializer returned null
+[06Nov2022 20:50:03.497] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_blood as it's serializer returned null
+[06Nov2022 20:50:03.498] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_green_oak_lotr as it's serializer returned null
+[06Nov2022 20:50:03.501] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_painted_acacia as it's serializer returned null
+[06Nov2022 20:50:03.501] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_redwood_bop as it's serializer returned null
+[06Nov2022 20:50:03.502] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe the_vault:vault_crystal_timekeeper
+com.google.gson.JsonSyntaxException: Unknown item 'the_vault:shard_timekeeper'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_302]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:575) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:649) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_302]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:966) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:940) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609) [?:1.8.0_302]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_302]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_302]
+[06Nov2022 20:50:03.508] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_aspen_atm as it's serializer returned null
+[06Nov2022 20:50:03.509] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:sign_posts/sign_post_twisted as it's serializer returned null
+[06Nov2022 20:50:03.513] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_willow_pw as it's serializer returned null
+[06Nov2022 20:50:03.514] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_purple_heart_pw as it's serializer returned null
+[06Nov2022 20:50:03.514] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_magic_pw as it's serializer returned null
+[06Nov2022 20:50:03.516] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_tenanea as it's serializer returned null
+[06Nov2022 20:50:03.518] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_magic_bop as it's serializer returned null
+[06Nov2022 20:50:03.518] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:hanging_signs/hanging_sign_silverbell_pw as it's serializer returned null
+[06Nov2022 20:50:03.530] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 114 recipes
+[06Nov2022 20:50:05.814] [Worker-Main-2/INFO] [placebo/]: Registered 0 additional loot tables.
+[06Nov2022 20:50:06.088] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5166 advancements
+[06Nov2022 20:50:06.103] [Worker-Main-2/INFO] [placebo/]: Registered 0 additional recipes.
+[06Nov2022 20:50:06.621] [Worker-Main-2/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 154 milliseconds
+[06Nov2022 20:50:06.748] [Worker-Main-2/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 0 ms
+[06Nov2022 20:50:06.748] [Worker-Main-2/INFO] [CraftTweaker/]: CraftTweaker reload starting!
+[06Nov2022 20:50:09.175] [Worker-Main-2/INFO] [CraftTweaker/]: CraftTweaker reload complete!
+[06Nov2022 20:50:09.316] [Worker-Main-2/INFO] [immersiveengineering/]: Recipes for potions: minecraft:long_water_breathing, minecraft:long_regeneration, quark:strong_resistance, minecraft:regeneration, minecraft:leaping, minecraft:strong_swiftness, minecraft:invisibility, minecraft:strong_harming, minecraft:long_invisibility, minecraft:long_poison, minecraft:long_leaping, minecraft:strong_slowness, minecraft:strong_regeneration, minecraft:strong_turtle_master, minecraft:water, minecraft:swiftness, quark:danger_sight, minecraft:slowness, minecraft:long_strength, minecraft:strong_leaping, quark:resilience, minecraft:strong_healing, minecraft:fire_resistance, minecraft:night_vision, minecraft:strong_strength, minecraft:weakness, minecraft:long_night_vision, minecraft:strength, minecraft:slow_falling, quark:long_resilience, minecraft:mundane, minecraft:thick, minecraft:awkward, minecraft:long_swiftness, minecraft:long_slowness, minecraft:poison, minecraft:water_breathing, quark:long_danger_sight, minecraft:long_slow_falling, minecraft:healing, minecraft:long_fire_resistance, minecraft:long_turtle_master, quark:strong_resilience, minecraft:harming, minecraft:strong_poison, quark:long_resistance, minecraft:long_weakness
+[06Nov2022 20:50:25.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[06Nov2022 20:50:25.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Nov2022 20:50:25.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Nov2022 20:50:25.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Nov2022 20:50:25.995] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 0.0.0.0:25565
+[06Nov2022 20:50:26.052] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[06Nov2022 20:50:26.317] [Server thread/INFO] [FluxNetworks/]: SERVER CONFIG LOADED
+[06Nov2022 20:50:26.318] [Thread-1/INFO] [FluxNetworks/]: SERVER CONFIG LOADED
+[06Nov2022 20:50:26.319] [Thread-1/INFO] [FluxNetworks/]: SERVER CONFIG LOADED
+[06Nov2022 20:50:26.345] [Thread-1/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-server.toml
+[06Nov2022 20:50:26.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "Vault-Hunters"
+[06Nov2022 20:50:26.752] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been successfully loaded
+[06Nov2022 20:50:26.753] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:overworld by 0 flux devices
+[06Nov2022 20:50:26.759] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_nether by 0 flux devices
+[06Nov2022 20:50:26.771] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_end by 0 flux devices
+[06Nov2022 20:50:26.778] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in the_vault:the_other_side by 0 flux devices
+[06Nov2022 20:50:26.780] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in appliedenergistics2:spatial_storage by 0 flux devices
+[06Nov2022 20:50:26.782] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in the_vault:vault by 0 flux devices
+[06Nov2022 20:50:26.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Nov2022 20:50:29.803] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[06Nov2022 20:50:29.804] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[06Nov2022 20:50:29.804] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[06Nov2022 20:50:29.804] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[06Nov2022 20:50:29.804] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[06Nov2022 20:50:29.805] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[06Nov2022 20:50:29.805] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[06Nov2022 20:50:30.502] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3714 ms
+[06Nov2022 20:50:30.503] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.298s)! For help, type "help"
+[06Nov2022 20:50:30.503] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
+[06Nov2022 20:50:30.516] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread Query Listener started
+[06Nov2022 20:50:30.516] [Query Listener #1/INFO] [net.minecraft.network.rcon.QueryThread/]: Query running on 0.0.0.0:25569
+[06Nov2022 20:50:30.620] [Server thread/INFO] [com.polyvalord.neoncraft.NeonCraft/]: HELLO from server starting
+[06Nov2022 20:50:30.621] [Server thread/INFO] [iskallia.iskallutilities.core.IskallUtilities/]: Server is starting
+[06Nov2022 20:50:30.769] [Server thread/INFO] [FTB Utilities Backups/]: Backups folder - /home/connorjhauenstein/vault-server/backups
+[06Nov2022 20:51:02.310] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: No player was found
+[06Nov2022 21:02:00.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[06Nov2022 21:02:00.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: cd ..<--[HERE]
+[06Nov2022 21:02:02.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[06Nov2022 21:02:02.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Nov2022 21:02:02.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Nov2022 21:02:02.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Nov2022 21:02:02.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Vault-Hunters]'/minecraft:overworld
+[06Nov2022 21:02:03.018] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Vault-Hunters): All chunks are saved
+[06Nov2022 21:02:03.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Vault-Hunters]'/minecraft:the_nether
+[06Nov2022 21:02:03.020] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Nov2022 21:02:03.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Vault-Hunters]'/minecraft:the_end
+[06Nov2022 21:02:03.021] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Nov2022 21:02:03.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Vault-Hunters]'/the_vault:the_other_side
+[06Nov2022 21:02:03.022] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_other_side): All chunks are saved
+[06Nov2022 21:02:03.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Vault-Hunters]'/appliedenergistics2:spatial_storage
+[06Nov2022 21:02:03.023] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[06Nov2022 21:02:03.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Vault-Hunters]'/the_vault:vault
+[06Nov2022 21:02:03.024] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (vault): All chunks are saved
+[06Nov2022 21:02:03.105] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Vault-Hunters): All chunks are saved
+[06Nov2022 21:02:03.111] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Nov2022 21:02:03.112] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Nov2022 21:02:03.112] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_other_side): All chunks are saved
+[06Nov2022 21:02:03.113] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[06Nov2022 21:02:03.114] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (vault): All chunks are saved
+[06Nov2022 21:02:03.121] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been unloaded
+[06Nov2022 21:02:03.146] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread Query Listener stopped
